@@ -1,0 +1,16 @@
+CREATE TYPE "SOME"."ITEMS_TYPE" AS ENUM (
+    'SOME_ONE',
+    'ANOTHER_ONE'
+);
+
+CREATE TABLE "SOME"."SOME_ENTITY"
+(
+    "ID"         NUMERIC,
+    "ITEMS"      "SOME"."ITEMS_TYPE"[]
+);
+
+CREATE TABLE "SOME"."ANOTHER_ENTITY"
+(
+    "ID"         NUMERIC,
+    "ITEMS"      "SOME"."ITEMS_TYPE"[]
+);

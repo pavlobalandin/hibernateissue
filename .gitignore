@@ -1,0 +1,55 @@
+#####
+# Compiled sources
+#####
+*.class
+bin/
+build/
+buildSrc/.kotlin
+
+#####
+# IntelliJ
+#####
+.idea/
+*.iml
+classes/
+out/
+
+#####
+# Cursor
+#####
+bin/
+.cursor/plans
+
+#####
+# Gradle
+# NOTE: gradle-wrapper scripts and JAR file should be in VCS (see
+# https://docs.gradle.org/current/dsl/org.gradle.api.tasks.wrapper.Wrapper.html)
+#####
+.gradle/
+
+#####
+# OS Generated Files
+#####
+.DS_Store
+#####
+
+#####
+# Others
+#####
+*.log
+*.log.gz
+node_modules/
+dist/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.hprof
+
+#####
+# VS Code
+#####
+.vscode/**
+!.vscode/extensions.json
+!.vscode/settings.team.jsonc
+*.code-workspace
